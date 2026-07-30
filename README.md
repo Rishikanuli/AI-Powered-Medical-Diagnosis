@@ -119,30 +119,6 @@ Render Interactive Diagnostic Dashboard
 
 ---
 
-## History Page (Placeholder)
-
-![History](assets/prediction.png)
-
-*(Note: Prediction history persistence across sessions is not implemented in the current prototype; planned for future database integration).*
-
----
-
-## Login Page (Placeholder)
-
-![Login](assets/home.png)
-
-*(Note: User authentication is not implemented in the current public prototype; open access enabled).*
-
----
-
-## Registration Page (Placeholder)
-
-![Register](assets/home.png)
-
-*(Note: User registration is not implemented in the current public prototype).*
-
----
-
 # How It Works
 
 1. **Symptom Input & Vectorization:** The user selects any number of symptoms from a multi-select dropdown. The raw symptom string array is passed to `MultiLabelBinarizer.transform()`, converting qualitative inputs into a 104-dimensional binary feature vector $X \in \{0, 1\}^{104}$.
