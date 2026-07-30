@@ -1,0 +1,73 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# ==========================================
+# Machine Learning Heavy Binaries & Model Checkpoints
+# Note: model.pkl (~219MB) is excluded from version control.
+# Regenerate locally using: `python model.py`
+# ==========================================
+*.pkl
+*.joblib
+model.pkl
+mlb.pkl
+
+# Temporary generator outputs
+new_dict.txt
+
+# ==========================================
+# Logs & Databases
+# ==========================================
+*.log
+logs/
+*.sqlite
+*.db
+
+# ==========================================
+# OS & Editor System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# ==========================================
+# Frontend Build Artifacts (for future extensions)
+# ==========================================
+node_modules/
+dist/
+build/
